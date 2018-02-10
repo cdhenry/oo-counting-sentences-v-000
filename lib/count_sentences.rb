@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    array = []
     array = self.split("/\W/")
+    binding.pry
     array.length
   end
 end
